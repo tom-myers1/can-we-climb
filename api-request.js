@@ -2,7 +2,7 @@
 const Request = require('request');
 const winston = require('winston');
 
-Request.get('http://httpbin.org/ip', (error, response, body) => {
+Request.get('http://ws1.metcheck.com/ENGINE/v9_0/json.asp?lat=53.9&lon=-1.6&lid=67633&Fc=No', (error, response, body) => {
   var data;
   if (error) {
     return winston.error(error);
