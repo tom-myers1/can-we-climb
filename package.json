@@ -1,0 +1,36 @@
+{
+  "name": "can-we-climb",
+  "version": "1.0.0",
+  "description": "small app to display conditions at the cliff",
+  "main": "app.js",
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "app-root-path": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "eslinter": "^3.2.1",
+    "express": "^4.16.3",
+    "http-errors": "^1.6.3",
+    "morgan": "^1.9.0",
+    "winston": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom-myers1/can-we-climb.git"
+  },
+  "author": "Tom Myers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tom-myers1/can-we-climb/issues"
+  },
+  "homepage": "https://github.com/tom-myers1/can-we-climb#readme"
+}
