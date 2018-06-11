@@ -6,6 +6,8 @@ const morgan = require('morgan');
 const winston = require('./config/winston');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+const apirequest = require('./api-request');
+const queryresponse = require('./query-response');
 
 const app = express();
 
