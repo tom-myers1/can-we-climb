@@ -1,12 +1,12 @@
-var winston = require('winston');
+const winston = require('winston');
 const appRoot = require('app-root-path');
+const fs = require('fs');
 
-var file = (`${appRoot}/bin/response.json`);
-var items = require(file);
-var list = items["list"];
-
-for (var i = 0; i < list.length; i ++) {
-  if ( list[i]["name"] == item ) {
-    console.log(list[i]["url"]);
+const file = (`${appRoot}/bin/response.json`);
+fs.readFile(file, 'utf8', (err, data) => {
+  if (err) {
+    return winston.error(err);
   }
-}
+  const obj = JSON.parse(data);
+  return [obj, winston.info('File read ok')];
+});
