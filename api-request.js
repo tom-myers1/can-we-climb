@@ -1,6 +1,6 @@
 // makes API call to metchecker to gather info
 const Request = require('request');
-const winston = require('winston');
+const winston = require('./config/winston');
 const fs = require('fs');
 const appRoot = require('app-root-path');
 

@@ -1,4 +1,5 @@
-const winston = require('winston');
+// tries to query response from API call
+const winston = require('./config/winston');
 const appRoot = require('app-root-path');
 const fs = require('fs');
 
